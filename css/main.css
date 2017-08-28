@@ -1,0 +1,359 @@
+/*General a lo particular*/
+*{
+    margin:0;
+   padding:0;
+}
+header,main, figure,nav,section,article,footer{
+    display:block;
+}
+/*Tipografias*/
+@font-face{
+    font-family:"OpenSans";
+    src:url("../fonts/OpenSans-Regular.ttf");
+}
+/*Contenedores*/
+/*Maquetado para Escritorio 1024px*/
+body{
+  margin:0 auto;  
+  font-family: "OpenSans"
+}
+
+header{
+
+}
+    .menu{
+        width:100%;
+        height:75px;
+        background-color:#fff;
+        padding:20px 20px 20px 20px;
+        margin:0;
+        border-bottom: none;
+    }
+        .logo{
+            width: 34%;
+    height: 75px;
+    /* background-color: #fff; */
+    padding: 0;
+    margin: 0;
+    /* float: left; */
+        }
+            
+            .vanplastic{
+                  width: 256px;
+    height: 64px;
+    /* background-color: #fff; */
+    padding: 0;
+    margin: 0;
+       
+    
+            }
+            .navbar-right{
+                    margin-top: .5em;
+            }
+            .container > .navbar-header{
+                margin-top: -1em;
+                   
+            }
+            /*Para movil el logotipo no respeta el responsive*/
+        .redes{
+            width:66%;
+            height:75px;
+            background-color:#fff;
+            padding:0;
+            margin:0;
+            float:left;
+        }
+        .carousel-inner > .item > img{
+            margin: 0 auto;
+            width: 100%
+        }
+        .carousel-caption {
+    right: 0%;
+    left: 49%;
+    padding-bottom: 15em;
+    /* color: white; */
+    /* background-color: gray; */
+}
+.carousel-caption a:hover{
+padding: 1.2em 2.2em;
+box-shadow: 4px 4px 5px #7d9b24;
+font-weight: bold;
+}
+.carousel-caption a{
+    background-color: rgba(235, 235, 235, 0.5);
+    color: #006680;
+    text-shadow: none;
+    padding: 1em 2em;
+    font-size: 2rem;
+
+}
+.carousel-caption a:hover{
+    text-decoration: none;
+}
+            .face, .faqs{
+                padding: 0px!important;
+            }
+            .faqs i{
+                    color: #006680;
+    font-size: 23px;
+            }
+
+            .face img{
+                width:24px;
+                height:24px;
+                padding:0;
+               
+            
+            }
+            .preguntas{
+                width:24px;
+                height:24px;
+                padding:0;
+                margin:30px 0px;
+                font-size:16pt;
+                text-decoration:none;
+                color:#00657f;	
+            }
+            .navbar-nav > li {
+  
+    color: #006680;
+    padding-right: 3em;
+}
+    .banner{
+        width:100%;
+        height:500px;
+        background-color:#fff;
+        padding:0;
+        margin:0 0 10px;
+    }
+    .main2{
+        margin-top: 1em;
+    }
+
+    .uno{
+        width:100%;
+        height:500px;    
+    }
+    .main{
+            margin-top: 6em;
+    }
+
+    .industrial{
+
+    }
+        .iconindustrial{
+            width:34%;
+            height:200px;
+            background-color:#d5d2df;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+
+        .unoindustrial{
+            width:100%;
+            height:200px;
+            background-color:#d5d2df;
+            padding:0;
+            margin:0 0 10px;
+        }
+
+        .teaserindustrial{
+            width:66%;
+            height:200px;
+            background-color:#ff6666;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+        .inconfundibles{
+            width:100%;
+            height:200px;
+            background-color:#ff6666;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+
+    .hogar{
+
+    }
+        .teaserhogar{
+            width:66%;
+            height:200px;
+            background-color:#ff8888;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+
+        .colores{
+            width:100%;
+            height:200px;
+            background-color:#ff6666;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+        .iconhogar{
+            width:34%;
+            height:200px;
+            background-color:#d5d2df;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+
+        .doshogar{
+            width:100%;
+            height:200px; 
+            padding:0;
+            margin:0 0 10px; 
+        }
+
+    .maquila{
+        
+    }
+        .iconmaquila{
+            width:34%;
+            height:200px;
+            background-color:#d5d2df;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+
+        .unomaquila{
+            width:100%;
+            height:200px;
+        }
+        .teasermaquila{
+            width:66%;
+            height:200px;
+            background-color:#ff6666;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+        }
+         .marca{
+            width:100%;
+            height:200px;
+            background-color:#ff6666;
+            padding:0;
+            margin:0 0 10px;
+            float:left;
+
+         }
+
+    .clientes{
+        width:100%;
+        height:184px;
+        background-color:#fff;
+        padding:0;
+        margin:0;
+        float:left;
+
+    }
+        .capistrano{
+            width:330px;
+            height:80px;
+            background-color:#fff;
+            padding:0;
+            margin:10px 10px 10px 10px;
+            float:left;
+        }
+            .logocapistrano{
+                width:330px;
+                height:80px;
+                background-color:#fff;
+                padding:0;
+                margin:10px 10px 10px 10px;
+                float:left;
+
+            }
+        .mik{
+            width:330px;
+            height:80px;
+            background-color:#fff;
+            padding:0;
+            margin:10px 10px 10px 10px;
+            float:left;
+        }
+            .logomik{
+                width:330px;
+                height:80px;
+                background-color:#fff;
+                padding:0;
+                margin:10px 10px 10px 10px;
+                float:left;
+            }
+
+        .laloma{
+            width:330px;
+            height:80px;
+            background-color:#fff;
+            padding:0;
+            margin:10px 10px 10px 10px;
+            float:left;
+        }
+
+            .logolaloma{
+                width:330px;
+                height:80px;
+                background-color:#fff;
+                padding:0;
+                margin:10px 10px 10px 10px;
+                float:left;
+            }
+
+footer{
+  width: auto; */
+    height: 90px;
+    background-color: #00657f;
+    padding: 0;
+    margin: 0;
+    /* float: left; */
+}
+    .logofooter{
+        width:auto;
+        height:44px;
+        padding:0;
+        margin:0;
+        float:left;
+    }
+
+    .logoblanco{
+        width:auto;
+        height:70px;
+        padding:0px;
+        margin:10px;
+        float:left;
+    }
+
+    .contacto{
+        font: "OpenSans-Regular";
+		font-size:8pt;
+		text-align:right;	
+        color:#fff;
+        margin: 20px 20px 20px 20px;
+    }
+
+
+/*Contenido*/
+.clientesuno{
+    font:OpenSans-Bold;
+    font-size:30pt;
+    text-align:left;
+    color:#00657d;
+}
+
+
+/*Menu*/
+
+/*NOTAS EXTRASMedia Queries Responsive
+320px (Custom Iphone Retina)
+480px (Small Devices, Phones)
+768px (Small Devices, Tablets)
+992px (Medium Devices, Desktops)
+1200px (Large Devices, Wide Screens) */
+
