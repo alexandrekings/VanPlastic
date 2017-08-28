@@ -67,10 +67,14 @@ header{
             margin: 0 auto;
             width: 100%
         }
+
+        .carousel-indicators {
+    bottom: -9px;
+}
         .carousel-caption {
     right: 0%;
     left: 49%;
-    padding-bottom: 15em;
+    padding-bottom: 2em;
     /* color: white; */
     /* background-color: gray; */
 }
@@ -142,8 +146,7 @@ font-weight: bold;
 
     }
         .iconindustrial{
-            width:34%;
-            height:200px;
+           
             background-color:#d5d2df;
             padding:0;
             margin:0 0 10px;
@@ -151,24 +154,21 @@ font-weight: bold;
         }
 
         .unoindustrial{
-            width:100%;
-            height:200px;
-            background-color:#d5d2df;
-            padding:0;
-            margin:0 0 10px;
+             background-color: #d5d2df;
+    padding: 0;
+    margin: 0 0 10px;
+    width: 100%;
         }
 
         .teaserindustrial{
-            width:66%;
-            height:200px;
+          
             background-color:#ff6666;
             padding:0;
             margin:0 0 10px;
             float:left;
         }
         .inconfundibles{
-            width:100%;
-            height:200px;
+         
             background-color:#ff6666;
             padding:0;
             margin:0 0 10px;
@@ -178,9 +178,12 @@ font-weight: bold;
     .hogar{
 
     }
+    .pedidosbanner img{
+        width: 100%;
+        margin-bottom: 1em;
+    }
         .teaserhogar{
-            width:66%;
-            height:200px;
+           
             background-color:#ff8888;
             padding:0;
             margin:0 0 10px;
@@ -188,16 +191,13 @@ font-weight: bold;
         }
 
         .colores{
-            width:100%;
-            height:200px;
-            background-color:#ff6666;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
+               background-color: #ff6666;
+    padding: 0;
+    margin: 0 0 10px;
+    width: 100%;
         }
         .iconhogar{
-            width:34%;
-            height:200px;
+        
             background-color:#d5d2df;
             padding:0;
             margin:0 0 10px;
@@ -215,8 +215,7 @@ font-weight: bold;
         
     }
         .iconmaquila{
-            width:34%;
-            height:200px;
+          
             background-color:#d5d2df;
             padding:0;
             margin:0 0 10px;
@@ -224,12 +223,10 @@ font-weight: bold;
         }
 
         .unomaquila{
-            width:100%;
-            height:200px;
+           width: 100%;
         }
         .teasermaquila{
-            width:66%;
-            height:200px;
+         
             background-color:#ff6666;
             padding:0;
             margin:0 0 10px;
@@ -346,6 +343,13 @@ footer{
     text-align:left;
     color:#00657d;
 }
+.redesmovil{
+    display:none;
+}
+/*bbootstrap*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
 
 
 /*Menu*/
@@ -357,3 +361,71 @@ footer{
 992px (Medium Devices, Desktops)
 1200px (Large Devices, Wide Screens) */
 
+
+/*media queries*/
+
+@media (max-width: 995px) and (min-width: 763px) {
+.navbar-nav > li {
+        padding-right: 1em;
+}
+
+}
+
+@media (max-width: 763px){
+    .face img {
+   
+    margin-top: -1em;
+}
+    .redesmovil{
+        display: inline-block;
+   
+    width: 100px;
+    text-align: center;
+    margin-top: 1em;
+        margin-left: 7em;
+    }
+    .navbar-nav {
+    margin: 7.5px -15px;
+    background-color: #ebebeb;
+    padding: 1em;
+}
+.navbar-nav > li {
+    color: #006680;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+    border-bottom: #ceced0 1px solid;
+    padding-top: 1em;
+}
+.facemenu{
+    display: none!important;
+}
+}
+
+@media (max-width: 580px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+
+}
+
+@media (max-width: 516px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+.menu {
+    width: 100%;
+    height: 123px;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    border-bottom: none;
+}
+.container > .navbar-header {
+  
+    text-align: center;
+}
+
+}
