@@ -107,17 +107,17 @@ body{
             margin-top: 6em;
     }
 
-/*Teaser Industrial*/
-    .imgteaserindustrial{
+/*Teaser Hogar*/
+    .imgteaserhogar{
         padding: 0;
         margin: 10px 0px 10px 0px;
         width:100%;
         height:auto; 
-    }*
+    }
 
-/*Productos Línea Industrial*/
-    /*Caja Bananera*/
-    .imgbananera{
+/*Productos Línea Hogar*/
+    /*Cubeta Catorce*/
+    .imgcubetacatorce{
         padding: 10px;
         margin:40px; 
         background:#fff;
@@ -125,15 +125,15 @@ body{
       
     }
 
-    .txtbananera{
+    .txtcubetacatorce{
         margin:40px 20px 20px 20px;
-        padding: 20px 300px 20px 65px; 
+        padding:20px 300px 20px 65px; 
         background:#f1f1f1;
         float:left;
     }
 
-    /*Caja María Calada*/
-    .imgmaria{
+    /*Cubeta Dieciocho*/
+    .imgcubetadieciocho{
         padding: 10px;
         margin:40px; 
         background:#fff;
@@ -141,15 +141,15 @@ body{
       
     }
 
-    .txtmaria{
+    .txtcubetadieciocho{
         margin:40px 20px 20px 20px;
         padding: 20px 300px 20px 65px; 
         background:#f1f1f1;
         float:left;
     }
 
-    /*Caja María Fondo Plano*/
-    .imgmariaplano{
+    /*Cubeta Doce*/
+    .imgcubetadoce{
         padding:10px;
         margin: 40px; 
         background:#fff;
@@ -158,72 +158,72 @@ body{
       
     }
 
-    .txtmariaplano{
+    .txtcubetadoce{
         margin:40px 20px 20px 20px;
         padding: 20px 300px 20px 65px; 
         background:#f1f1f1;
         float:left;
     }
 
-    /*Caja Quetzal Ligera*/
-    .imgquetzalligera{
+    /*Cubeta Ocho*/
+    .imgcubetaocho{
         padding:10px;
         margin:40px;
         background: #fff;
         float:left;
     }
 
-    .txtquetzalligera{
+    .txtcubetaocho{
         margin:40px 20px 20px 20px;
         padding:20px 300px 20px 65px;
         background:#f1f1f1;
         float:left;
     }
 
-    /*Caja Quetzal*/
-    .imgquetzal{
+    /*Tina Uno*/
+    .imgtinauno{
         padding:10px;
         margin:40px;
         background: #fff;
         float:left;
     }
 
-    .txtquetzal{
+    .txttinauno{
         margin:40px 20px 20px 20px;
         padding:20px 300px 20px 65px;
         background:#f1f1f1;
         float:left;
     }
 
-    /*Cesta Lechera*/
-    .imglechera{
+    /*Escurridor de Cubiertos*/
+    .imgescurridor{
         padding:10px;
         margin:40px;
         background: #fff;
         float:left;
     }
 
-    .txtlechera{
+    .txtescurridor{
         margin:40px 20px 20px 20px;
         padding:20px 300px 20px 65px;
         background:#f1f1f1;
         float:left;
     }
-/*Boxbanners Hogar y Maquila*/
-    .boxbannerhogar{
+/*Boxbanners Maquila, Otros Productos e Industrial*/
+    .boxbannermaquila{
        padding:10px;
-       margin: 10px 10px 10px 100px;
+       margin:10px 10px 10px 100px;
        float:left;
       
     }
 
-    .boxbannermaquila{
+    .boxbannerotrosproductos{
         padding:10px;
         margin:10px 10px 10px 110px;
         float:left;
     }
 
-    .boxbannerotrosproductos{
+    .boxbannerindustrial{
         padding:10px;
         margin:10px 10px 10px 120px;
         float:left;
