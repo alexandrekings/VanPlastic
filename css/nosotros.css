@@ -1,0 +1,372 @@
+/*General a lo particular*/
+*{
+    margin:0;
+   padding:0;
+}
+header,main, figure,nav,section,article,footer{
+    display:block;
+}
+/*Tipografias*/
+@font-face{
+    font-family:"OpenSans";
+    src:url("../fonts/OpenSans-Regular.ttf");
+}
+/*Contenedores*/
+/*Maquetado para Escritorio 1024px*/
+body{
+  margin:0 auto;  
+  font-family: "OpenSans"
+}
+
+/*Menu*/
+header{
+
+}
+    .menu{
+        width:100%;
+        height:75px;
+        background-color:#fff;
+        padding:20px 20px 20px 20px;
+        margin:0;
+        border-bottom: none;
+    }
+        .logo{
+            width: 34%;
+    height: 75px;
+    /* background-color: #fff; */
+    padding: 0;
+    margin: 0;
+    /* float: left; */
+        }
+            
+            .vanplastic{
+                  width: 256px;
+    height: 64px;
+    /* background-color: #fff; */
+    padding: 0;
+    margin: 0;
+       
+    
+            }
+            .navbar-right{
+                    margin-top: .5em;
+            }
+            .container > .navbar-header{
+                margin-top: -1em;
+                   
+            }
+           
+        .redes{
+            width:66%;
+            height:75px;
+            background-color:#fff;
+            padding:0;
+            margin:0;
+            float:left;
+        }
+/*Carrusel Banner Principal*/
+        .carousel-inner > .item > img{
+            margin: 0 auto;
+            width: 100%
+        }
+
+        .carousel-indicators {
+    bottom: -9px;
+}
+        .carousel-caption {
+    right: 0%;
+    left: 49%;
+    padding-bottom: 2em;
+}
+
+.carousel-caption a:hover{
+padding: 1.2em 2.2em;
+box-shadow: 4px 4px 5px #7d9b24;
+font-weight: bold;
+}
+.carousel-caption a{
+    background-color: rgba(235, 235, 235, 0.5);
+    color: #006680;
+    text-shadow: none;
+    padding: 1em 2em;
+    font-size: 2rem;
+
+}
+.carousel-caption a:hover{
+    text-decoration: none;
+}
+            .face, .faqs{
+                padding: 0px!important;
+            }
+            .faqs i{
+                    color: #006680;
+    font-size: 23px;
+            }
+
+            .face img{
+                width:24px;
+                height:24px;
+                padding:0;
+               
+            
+            }
+            .preguntas{
+                width:24px;
+                height:24px;
+                padding:0;
+                margin:30px 0px;
+                font-size:16pt;
+                text-decoration:none;
+                color:#00657f;	
+            }
+            .navbar-nav > li {
+  
+    color: #006680;
+    padding-right: 3em;
+}
+ 
+    .main2{
+        margin-top: 1em;
+    }
+
+
+    .main{
+            margin-top: 6em;
+    }
+/*Nuestra Historia*/
+
+.img-fluid{
+    max-width:100%;
+    height:auto;
+    margin:50px 0px 0px 0px;
+    padding:0; 
+}
+
+.txthistoria{
+    margin:10px 10px 10px 20px;
+    padding:10px;
+}
+
+.fraseuno{
+    margin:10px 10px 10px 10px;
+    padding:10px;
+    text-align:center;
+    color:#366076;
+}
+
+    /*Mision, Visión y Valores*/
+    /*Mision*/
+    .imgmision{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+        float:left;
+        }
+
+    .txtmision{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+        }
+
+          /*Vision*/
+    .imgvision{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+        float:left;
+        }
+
+    .txtvision{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+        }
+
+           /*Valores*/
+    .imgvalores{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+        float:left;
+        }
+
+    .txtvalores{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+        }
+
+/*¿Por qué Vanplastic?*/
+    
+
+     }
+
+     .txtporque{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:10px 10px 100px 10px;
+        text-align:center;
+        float:left;
+     }
+
+     .frasepie{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:40px 30px 40px 40px;
+        color:#00657d;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+     }
+    
+   .imgporque{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:10px 10px 80px 10px;
+        float:left;
+   }
+
+/*footer*/
+footer{
+  width: auto;
+    height: 90px;
+    background-color: #00657f;
+    padding: 0;
+    margin: 0;
+    /* float: left; */
+}
+    .logofooter{
+        width:auto;
+        height:44px;
+        padding:0;
+        margin:0;
+        float:left;
+    }
+
+    .logoblanco{
+        width:auto;
+        height:70px;
+        padding:0px;
+        margin:10px;
+        float:left;
+    }
+
+    .contacto{
+        font: "OpenSans-Regular";
+		font-size:8pt;
+		text-align:right;	
+        color:#fff;
+        margin: 20px 20px 20px 20px;
+    }
+
+
+/*Contenido*/
+
+.redesmovil{
+    display:none;
+}
+/*bootstrap*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+
+/*Menu*/
+
+/*NOTAS EXTRASMedia Queries Responsive
+320px (Custom Iphone Retina)
+480px (Small Devices, Phones)
+768px (Small Devices, Tablets)
+992px (Medium Devices, Desktops)
+1200px (Large Devices, Wide Screens) */
+
+
+/*media queries*/
+
+@media (max-width: 995px) and (min-width: 763px) {
+.navbar-nav > li {
+        padding-right: 1em;
+}
+
+}
+
+@media (max-width: 763px){
+    .face img {
+   
+    margin-top: -1em;
+}
+    .redesmovil{
+        display: inline-block;
+   
+    width: 100px;
+    text-align: center;
+    margin-top: 1em;
+        margin-left: 7em;
+    }
+    .navbar-nav {
+    margin: 7.5px -15px;
+    background-color: #ebebeb;
+    padding: 1em;
+}
+.navbar-nav > li {
+    color: #006680;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+    border-bottom: #ceced0 1px solid;
+    padding-top: 1em;
+}
+.facemenu{
+    display: none!important;
+}
+}
+
+@media (max-width: 580px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+
+}
+
+@media (max-width: 516px){
+.redesmovil {
+    
+    margin-left: 2em;
+}
+.menu {
+    width: 100%;
+    height: 123px;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    border-bottom: none;
+}
+.container > .navbar-header {
+  
+    text-align: center;
+}
+
+}
