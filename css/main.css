@@ -47,13 +47,12 @@ header{
        
     
             }
-            .navbar-right{
-                    margin-top: .5em;
-            }
+          
             .container > .navbar-header{
                 margin-top: -1em;
                    
             }
+
             /*Para movil el logotipo no respeta el responsive*/
         .redes{
             width:66%;
@@ -73,14 +72,15 @@ header{
 }
         .carousel-caption {
     right: 0%;
-    left: 49%;
+    left: 59%;
     padding-bottom: 2em;
+
     /* color: white; */
     /* background-color: gray; */
 }
 .carousel-caption a:hover{
 padding: 1.2em 2.2em;
-box-shadow: 4px 4px 5px #7d9b24;
+box-shadow: 4px 4px 5px #043440;
 font-weight: bold;
 }
 .carousel-caption a{
@@ -119,9 +119,187 @@ font-weight: bold;
                 color:#00657f;	
             }
             .navbar-nav > li {
-  
     color: #006680;
-    padding-right: 3em;
+    padding-right: 2em;
+    }
+    .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 15px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.carousel-caption2 {
+    right: auto;
+    left: auto;
+    padding-bottom: 7em;
+    padding-left: 3em;
+    /* color: white; */
+    /* background-color: gray; */
+}
+            .carousel-caption2 a:hover {
+    padding: 1em 2em;
+    box-shadow: 4px 4px 5px #043440;
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-caption3 {
+        right: 0%;
+    left: 49%;
+    padding-bottom: 2em;
+        padding-bottom: 9em;
+        margin-right: -2em;
+}
+            .carousel-caption3 a:hover {
+       padding: 1em 2em;
+    box-shadow: 4px 4px 5px #043440;
+    font-weight: bold;
+    color: #006680;
+}
+.dropdown-menu {
+    /* color: white; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 186px;
+    padding: 12px 13px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #ffffff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.dropdown-menu li{
+        padding-top: 10px;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    padding-top: 0px;
+}
+
+.dropdown-menu{
+    left: .01em!important
+}
+
+/*efecto hover*/
+.frame {
+        height: 250px;
+    width: 328px;
+    overflow: hidden;
+}
+.zoomin img {
+         height: 250px;
+    width: 328px;
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+.zoomin img:hover {
+
+  height: 270px;
+    width: 348px;
+    margin-left: -10px;
+}
+
+/*hola*/
+0% {
+    opacity: 1;
+    transform: translateX(0);
+}
+100% {
+    opacity: 0;
+    transform: translateX(100%);
+}
+.et_pb_scroll_top.et-visible {
+    opacity: 1;
+    -webkit-animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -moz-animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -o-animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    animation: fadeInRight 1s 1 cubic-bezier(0.77,0,.175,1);
+}
+
+.et_pb_scroll_top.et-hidden {
+    opacity: 0;
+    -webkit-animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -moz-animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    -o-animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+    animation: fadeOutRight 1s 1 cubic-bezier(0.77,0,.175,1);
+}
+.et_pb_scroll_top {
+       text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-decoration: none;
+    position: fixed;
+    bottom: 95px;
+    right: 0px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    color: #fff;
+    top: auto;
+    height: 66px;
+}
+.et-pb-icon {
+      speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.9;
+    -webkit-font-smoothing: antialiased;
+    font-size: 30px;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.et-hidden{
+    display: none;
+}
+.et-visible{
+    display: block;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+/*fin*/
+
+.linban{
+       margin-bottom: 2em;
+    margin-top: 1em;
+}
+.facemenu {
+        margin-top: 10px;
 }
    
     .main2{
@@ -174,7 +352,8 @@ font-weight: bold;
     }
     .pedidosbanner img{
         width: 100%;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
+        margin-top: 2em
     }
         .teaserhogar{
            
@@ -226,7 +405,18 @@ font-weight: bold;
             margin:0 0 10px;
             float:left;
         }
-         
+        .lineasproductos{
+            background-color: #ebebeb
+        } 
+
+        /*hover menu*/
+        .navbar-default .navbar-nav > li > a:hover{
+            color:#93d600;
+        }
+        .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:visited {
+    color: #555;
+    background-color: rgba(96, 208, 225, 0.07);
+}
 /*Footer*/
 footer{
   width: auto; 
@@ -257,7 +447,7 @@ footer{
 		font-size:8pt;
 		text-align:right;	
         color:#fff;
-        margin: 20px 20px 20px 20px;
+        margin: 20px 0px 0px 0px;
     }
 
 
@@ -275,6 +465,11 @@ footer{
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
 }
+
+/*estilos hogar */
+
+
+
 
 
 /*Menu*/

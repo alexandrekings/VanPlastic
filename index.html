@@ -8,8 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Expertos en Inyección de Plástico Polietileno de Alta Densidad">
         <link rel="icon" type="img/favicon.png" href="img/favicon.png"/>
-        <!--Colocar el favicon en tu directorio raíz -->
-        
+               
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
@@ -17,13 +16,14 @@
     </head>
     <body>      
       <header>
+      <!--INICIA MENU -->
             <nav class="navbar navbar-default navbar-fixed-top menu ">
              <div class="container">
                 <div class="navbar-header">
-                    <a href="#"><img src="img/logotipo.png" alt="logotipo" class="vanplastic"></a>
+                    <a href="index.html"><img src="img/logotipo.png" alt="logotipo" class="vanplastic"></a>
                     <div class="redesmovil">
                          <a class="face" href="https://www.facebook.com/VanPlastic-244243679410618/"><img src="img/facebook.png" alt="facebook" ></a>
-                       <a href="#" class="faqs"><i class="glyphicon glyphicon-question-sign"></i></a>
+                       <a href="preguntas.html" class="faqs"><i class="glyphicon glyphicon-question-sign"></i></a>
                     </div>
                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuvanplastic" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -31,24 +31,31 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                </div>
-              
-                 
+              </div>
                 <div class="collapse navbar-collapse" id="menuvanplastic">
-                <ul class="nav navbar-nav navbar-right">
-                        <li>Inicio</li>
-                        <li>Nosotros</li>
-                        <li>Productos</li>
-                        <li>Pedido</li>
-                        <li>Contacto</li>
+                  <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="industrial.html">Línea Industrial</a></li>
+                        <li><a href="hogar.html">Línea Hogar</a></li>
+                        <li><a href="maquila.html">Servicio de Maquila</a></li>
+                        <li><a href="otrosproductos.html">Otros Productos</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Catálogo</a></li>
+
+                        </ul></li>
+                        <li><a href="pedidos.html">Pedido</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
                         <li class="facemenu"><a class="face" href="https://www.facebook.com/VanPlastic-244243679410618/"><img src="img/facebook.png" alt="facebook" ></a></li>
-                        <li class="facemenu"><a href="#" class="faqs"><i class="glyphicon glyphicon-question-sign"></i></a></li>
-                    </ul> 
-                    </div>
-                
-                   
-            </div>
+                        <li class="facemenu"><a href="preguntas.html" class="faqs"><i class="glyphicon glyphicon-question-sign"></i></a></li>
+                  </ul> 
+                </div>
+              </div>
             </nav> 
+            <!-- FIN MENU -->
             </header>
       <!--contenido de tu página-->
       <main class="main">
@@ -70,7 +77,7 @@
                 </div>
                 <div class="item">
                 <img src="img/bannerdos@1x.jpg" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption carousel-caption3">
                  <a href="vermas">Ver más</a>
                 </div>
                 </div>
@@ -94,7 +101,7 @@
 </div>
      
     
-
+<div class="row lineasproductos">
     <div class="container main2">
        <!-- <section class="row">
           <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -103,33 +110,49 @@
           <section class="clearfix"></section>
           </section>-->
        
-       <section class="row">
+       <section class="row linban" id="lineasBanners">
           <section class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
-               <a href="industrial.html"><img src="img/lineaindustrial@1x.jpg" alt="línea industrial" class="unoindustrial"></a>
+               <a href="industrial.html">
+               <div class="zoomin frame">
+               <img src="img/lineaindustrial@1x.jpg" alt="línea industrial" class="unoindustrial">
+               </div>
+               </a>
                 
             </section>
             <section class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
-              <a href="hogar.html"><img src="img/lineahogar@1x.jpg" alt="Amplia Gama de Colores" class="colores"></a>
+              <a href="hogar.html">
+              <div class="zoomin frame">
+              <img src="img/lineahogar@1x.jpg" alt="Amplia Gama de Colores" class="colores"></div></a>
                
             </section>
             <section class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
-             <a href="maquila.html"><img src="img/serviciomaquila@1x.jpg" alt="línea maquila" class="unomaquila">
+             <a href="maquila.html">
+             <div class="zoomin frame"><img src="img/serviciomaquila@1x.jpg" alt="línea maquila" class="unomaquila"></div></a>
             </section>
             <section class="clearfix"></section>
          
         </section>
+        </div>
+        </div>
         <section class="row">
+        <div class="container">
             <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pedidosbanner">
-                <a href="pedidos.html">
+                
+                <div class="carousel-caption carousel-caption2">
+                    <a href="pedidos.html">Ver más</a>
+                    </div>
                     <img src="img/teaserpedidos@1x.jpg" >
-                </a>
+               
             </section>
             <section class="clearfix"></section>
+            </div>
         </section> 
        
-    </div> 
+  
+
   </main>
-   <footer class="footer row">
+  <span class="et_pb_scroll_top glyphicon glyphicon-chevron-up et-pb-icon et-hidden" ></span>
+   <footer class="footer">
     <section class="container">
             <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <a href="#">
@@ -148,17 +171,17 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
-        <!--script src="js/plugins.js"></script>
-        <script src="js/main.js"></script-->
+        <!--script src="js/plugins.js"></script-->
+        <script src="js/main.js"></script>
  
         <!-- Google Analytics. -->
-        <script>
+        <!--script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+        </script-->
     </body>
 </html>
