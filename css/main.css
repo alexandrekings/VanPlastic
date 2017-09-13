@@ -1,227 +1,242 @@
 /*General a lo particular*/
 *{
-    margin:0;
+   margin:0;
    padding:0;
-}
+ }
+
 header,main, figure,nav,section,article,footer{
-    display:block;
+   display:block;
 }
+
 /*Tipografias*/
-@font-face{
-    font-family:"OpenSans";
-    src:url("../fonts/OpenSans-Regular.ttf");
+   @font-face{
+   font-family:"OpenSans";
+   src:url("../fonts/OpenSans-Regular.ttf");
 }
+
 /*Contenedores*/
-/*Maquetado para Escritorio 1024px*/
 body{
   margin:0 auto;  
   font-family: "OpenSans"
 }
 
-header{
-
+/*Header Menú*/
+.menu{
+  width:100%;
+  height:75px;
+  background-color:#fff;
+  padding:20px 20px 20px 20px;
+  margin:0;
+  border-bottom: none;
 }
-    .menu{
-        width:100%;
-        height:75px;
-        background-color:#fff;
-        padding:20px 20px 20px 20px;
-        margin:0;
-        border-bottom: none;
-    }
-        .logo{
-            width: 34%;
-    height: 75px;
-    /* background-color: #fff; */
-    padding: 0;
-    margin: 0;
-    /* float: left; */
-        }
-            
-            .vanplastic{
-                  width: 256px;
-    height: 64px;
-    /* background-color: #fff; */
-    padding: 0;
-    margin: 0;
-       
-    
-            }
-          
-            .container > .navbar-header{
-                margin-top: -1em;
-                   
-            }
 
-            /*Para movil el logotipo no respeta el responsive*/
-        .redes{
-            width:66%;
-            height:75px;
-            background-color:#fff;
-            padding:0;
-            margin:0;
-            float:left;
-        }
+ .logo{
+   width: 34%;
+   height: 75px;
+   padding: 0;
+   margin: 0;
+}
+            
+.vanplastic{
+   width: 256px;
+   height: 64px;
+   padding: 0;
+   margin: 0;
+}
+ 
+.container > .navbar-header{
+   margin-top: -1em;     
+}
+
+.redes{
+   width:66%;
+   height:75px;
+   background-color:#fff;
+   padding:0;
+   margin:0;
+   float:left;
+}
+
+/*Header Carrusel*/
+
         .carousel-inner > .item > img{
             margin: 0 auto;
             width: 100%
-        }
+            }
 
         .carousel-indicators {
-    bottom: -9px;
-}
+            bottom: -9px;
+            }
+
         .carousel-caption {
-    right: 0%;
-    left: 59%;
-    padding-bottom: 2em;
-
-    /* color: white; */
-    /* background-color: gray; */
-}
-.carousel-caption a:hover{
-padding: 1.2em 2.2em;
-box-shadow: 4px 4px 5px #043440;
-font-weight: bold;
-}
-.carousel-caption a{
-    background-color: rgba(235, 235, 235, 0.5);
-    color: #006680;
-    text-shadow: none;
-    padding: 1em 2em;
-    font-size: 2rem;
-
-}
-.carousel-caption a:hover{
-    text-decoration: none;
-}
-            .face, .faqs{
-                padding: 0px!important;
-            }
-            .faqs i{
-                    color: #006680;
-    font-size: 23px;
+            right: 0%;
+            left: 59%;
+            padding-bottom: 2em;
             }
 
-            .face img{
-                width:24px;
-                height:24px;
-                padding:0;
-               
-            
+        .carousel-caption a:hover{
+            padding: 1.2em 2.2em;
+            box-shadow: 4px 4px 5px #043440;
+            font-weight: bold;
             }
-            .preguntas{
-                width:24px;
-                height:24px;
-                padding:0;
-                margin:30px 0px;
-                font-size:16pt;
-                text-decoration:none;
-                color:#00657f;	
+
+        .carousel-caption a{
+            background-color: rgba(235, 235, 235, 0.5);
+            color: #006680;
+            text-shadow: none;
+            padding: 1em 2em;
+            font-size: 2rem;
             }
-            .navbar-nav > li {
-    color: #006680;
-    padding-right: 2em;
-    }
-    .caret {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 15px;
-    vertical-align: middle;
-    border-top: 4px dashed;
-    border-top: 4px solid \9;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-}
-.carousel-caption2 {
-    right: auto;
-    left: auto;
-    padding-bottom: 7em;
-    padding-left: 3em;
-    /* color: white; */
-    /* background-color: gray; */
-}
-            .carousel-caption2 a:hover {
-    padding: 1em 2em;
-    box-shadow: 4px 4px 5px #043440;
-    font-weight: bold;
-    color: white;
-}
 
-.carousel-caption3 {
-        right: 0%;
-    left: 49%;
-    padding-bottom: 2em;
-        padding-bottom: 9em;
-        margin-right: -2em;
-}
-            .carousel-caption3 a:hover {
-       padding: 1em 2em;
-    box-shadow: 4px 4px 5px #043440;
-    font-weight: bold;
-    color: #006680;
-}
-.dropdown-menu {
-    /* color: white; */
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 186px;
-    padding: 12px 13px;
-    margin: 2px 0 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #ffffff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-}
+        .carousel-caption a:hover{
+            text-decoration: none;
+            }
 
-.dropdown-menu li{
-        padding-top: 10px;
-}
-.dropdown-menu .divider {
-    height: 1px;
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #e5e5e5;
-    padding-top: 0px;
-}
+        .face, .faqs{
+            padding: 0px!important;
+            }
 
-.dropdown-menu{
-    left: .01em!important
-}
+        .faqs i{
+            color: #006680;
+            font-size: 23px;
+            }
 
-/*efecto hover*/
-.frame {
-        height: 250px;
-    width: 328px;
-    overflow: hidden;
-}
-.zoomin img {
-         height: 250px;
-    width: 328px;
-  -webkit-transition: all 2s ease;
-     -moz-transition: all 2s ease;
-      -ms-transition: all 2s ease;
-          transition: all 2s ease;
-}
-.zoomin img:hover {
+        .face img{
+            width:24px;
+            height:24px;
+            padding:0;
+            }
 
-  height: 270px;
-    width: 348px;
-    margin-left: -10px;
-}
+        .preguntas{
+            width:24px;
+            height:24px;
+            padding:0;
+            margin:30px 0px;
+            font-size:16pt;
+            text-decoration:none;
+            color:#00657f;	
+            }
 
-/*hola*/
+        .navbar-nav > li {
+            color: #006680;
+            padding-right: 2em;
+            }
+
+        .caret {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: 15px;
+            vertical-align: middle;
+            border-top: 4px dashed;
+            border-top: 4px solid \9;
+            border-right: 4px solid transparent;
+            border-left: 4px solid transparent;
+            }
+
+        .carousel-caption2 {
+            right: auto;
+            left: auto;
+            padding-bottom: 7em;
+            padding-left: 3em;
+            }
+
+        .carousel-caption2 a:hover {
+            padding: 1em 2em;
+            box-shadow: 4px 4px 5px #043440;
+            font-weight: bold;
+            color: white;
+            }
+
+        .carousel-caption3 {
+            right: 0%;
+            left: 49%;
+            padding-bottom: 2em;
+            padding-bottom: 9em;
+            margin-right: -2em;
+            }
+
+        .carousel-caption3 a:hover {
+            padding: 1em 2em;
+            box-shadow: 4px 4px 5px #043440;
+            font-weight: bold;
+            color: #006680;
+            }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+            display: none;
+            float: left;
+            min-width: 186px;
+            padding: 12px 13px;
+            margin: 2px 0 0;
+            font-size: 14px;
+            text-align: left;
+            list-style: none;
+            background-color: #ffffff;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            border: 1px solid #ccc;
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 4px;
+            -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            }
+
+        .dropdown-menu li{
+            padding-top: 10px;
+            }
+
+        .dropdown-menu .divider {
+            height: 1px;
+            margin: 9px 0;
+            overflow: hidden;
+            background-color: #e5e5e5;
+            padding-top: 0px;
+            }
+
+        .dropdown-menu{
+            left: .01em!important
+            }
+
+/*Hover menu*/
+    .navbar-default .navbar-nav > li > a:hover{
+        color:#93d600;
+        }
+
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:visited {
+        color: #555;
+        background-color: rgba(96, 208, 225, 0.07);
+        }
+
+/*Efecto hover*/
+            .frame {
+                height: 250px;
+                width: 328px;
+                overflow: hidden;
+                }
+
+            .zoomin img {
+                height: 250px;
+                width: 328px;
+                -webkit-transition: all 2s ease;
+                -moz-transition: all 2s ease;
+                -ms-transition: all 2s ease;
+                transition: all 2s ease;
+                }
+
+            .zoomin img:hover {
+                height: 270px;
+                width: 348px;
+                margin-left: -10px;
+                }
+
+
+/*¡Hola!*/
+/*Efectos*/
 0% {
     opacity: 1;
     transform: translateX(0);
@@ -280,10 +295,10 @@ font-weight: bold;
     box-sizing: border-box;
 }
 
-
 .et-hidden{
     display: none;
 }
+
 .et-visible{
     display: block;
 }
@@ -292,16 +307,11 @@ font-weight: bold;
     margin-right: 0;
     margin-left: 0;
 }
-/*fin*/
+/*Fin*/
 
-.linban{
-       margin-bottom: 2em;
-    margin-top: 1em;
-}
-.facemenu {
-        margin-top: 10px;
-}
+
    
+/*Nivel Home*/
     .main2{
         margin-top: 1em;
     }
@@ -310,122 +320,734 @@ font-weight: bold;
         width:100%;
         height:500px;    
     }
+
     .main{
-            margin-top: 6em;
+        margin-top: 6em;
     }
 
-    .industrial{
-
-    }
-        .iconindustrial{
-           
-            background-color:#d5d2df;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
+    .iconindustrial{      
+        background-color:#d5d2df;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
         }
 
-        .unoindustrial{
-             background-color: #d5d2df;
-    padding: 0;
-    margin: 0 0 10px;
-    width: 100%;
+    .unoindustrial{
+        background-color: #d5d2df;
+        padding: 0;
+        margin: 0 0 10px;
+        width: 100%;
         }
 
-        .teaserindustrial{
-          
-            background-color:#ff6666;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
-        }
-        .inconfundibles{
-         
-            background-color:#ff6666;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
+    .teaserindustrial{
+        background-color:#ff6666;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
         }
 
-    .hogar{
+    .inconfundibles{
+         background-color:#ff6666;
+         padding:0;
+         margin:0 0 10px;
+         float:left;
+        }
 
-    }
     .pedidosbanner img{
         width: 100%;
         margin-bottom: 2em;
         margin-top: 2em
     }
-        .teaserhogar{
-           
-            background-color:#ff8888;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
+
+    .teaserhogar{
+        background-color:#ff8888;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
         }
 
-        .colores{
-               background-color: #ff6666;
-    padding: 0;
-    margin: 0 0 10px;
-    width: 100%;
-        }
-        .iconhogar{
-        
-            background-color:#d5d2df;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
+    .colores{
+        background-color: #ff6666;
+        padding: 0;
+        margin: 0 0 10px;
+        width: 100%;
         }
 
-        .doshogar{
-            width:100%;
-            height:200px; 
-            padding:0;
-            margin:0 0 10px; 
+    .iconhogar{
+        background-color:#d5d2df;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
         }
 
-    .maquila{
-        
-    }
-        .iconmaquila{
-          
-            background-color:#d5d2df;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
+    .doshogar{
+        width:100%;
+        height:200px; 
+        padding:0;
+        margin:0 0 10px; 
         }
 
-        .unomaquila{
-           width: 100%;
+    .iconmaquila{
+        background-color:#d5d2df;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
         }
-        .teasermaquila{
-         
-            background-color:#ff6666;
-            padding:0;
-            margin:0 0 10px;
-            float:left;
+
+    .unomaquila{
+        width: 100%;
         }
-        .lineasproductos{
-            background-color: #ebebeb
+
+    .teasermaquila{
+        background-color:#ff6666;
+        padding:0;
+        margin:0 0 10px;
+        float:left;
+        }
+
+    .lineasproductos{
+        background-color: #ebebeb
         } 
 
-        /*hover menu*/
-        .navbar-default .navbar-nav > li > a:hover{
-            color:#93d600;
+/*Nivel Nosotros*/
+    /*Nuestra Historia*/
+   .img-fluid{
+        max-width:100%;
+        height:auto;
+        margin:50px 0px 0px 0px;
+        padding:0; 
+    }
+
+    .txthistoria{
+        margin:10px 10px 10px 20px;
+        padding:10px;
+    }
+
+    .fraseuno{
+        margin:10px 10px 10px 10px;
+        padding:10px;
+        text-align:center;
+        color:#366076;
+    }
+
+    /*Mision, Visión y Valores*/
+        /*Mision*/
+    .imgmision{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+        float:left;
         }
-        .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:visited {
-    color: #555;
-    background-color: rgba(96, 208, 225, 0.07);
+
+    .txtmision{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+        }
+
+          /*Vision*/
+    .imgvision{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+        float:left;
+        }
+
+    .txtvision{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+        }
+
+           /*Valores*/
+    .imgvalores{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:0px;
+        text-align:center;
+        float:left;
+        }
+
+    .txtvalores{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:20px;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+        }
+
+/*¿Por qué Vanplastic?*/
+     .txtporque{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:10px 10px 100px 10px;
+        text-align:center;
+        float:left;
+     }
+
+     .frasepie{
+        width:100%; 
+        height:auto; 
+        margin:10px;
+        padding:40px 30px 40px 40px;
+        color:#00657d;
+        background-color:#f1f1f1;
+        text-align:center;
+        float:left;
+     }
+    
+   .imgporque{
+        width:100%; 
+        height:auto; 
+        margin:10px 10px 10px 10px;
+        padding:10px 10px 80px 10px;
+        float:left;
+   }
+
+/*Nivel Productos*/
+    /*Subnivel Línea Industrial*/
+/*Teaser Industrial*/
+    .imgteaserindustrial{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+/*Productos Línea Industrial*/
+    /*Caja Bananera*/
+    .imgbananera{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        float:left;  
+    }
+
+    .txtbananera{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja María Calada*/
+    .imgmaria{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        float:left; 
+    }
+
+    .txtmaria{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja María Fondo Plano*/
+    .imgmariaplano{
+        padding:10px;
+        margin: 40px; 
+        background:#fff;
+        float:left;  
+    }
+
+    .txtmariaplano{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja Quetzal Ligera*/
+    .imgquetzalligera{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtquetzalligera{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Caja Quetzal*/
+    .imgquetzal{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtquetzal{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Cesta Lechera*/
+    .imglechera{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtlechera{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+/*Boxbanners Hogar y Maquila*/
+    .boxbannerhogar{
+       padding:10px;
+       margin: 10px 10px 10px 100px;
+       float:left;
+       }
+
+    .boxbannermaquila{
+        padding:10px;
+        margin:10px 10px 10px 110px;
+        float:left;
+    }
+
+    .boxbannerotrosproductos{
+        padding:10px;
+        margin:10px 10px 10px 120px;
+        float:left;
+    }
+
+    /*Subnivel Línea Hogar*/
+/*Teaser Hogar*/
+    .imgteaserhogar{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+/*Productos Línea Hogar*/
+    /*Cubeta Catorce*/
+    .imgcubetacatorce{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        float:left;
+      
+    }
+
+    .txtcubetacatorce{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Cubeta Dieciocho*/
+    .imgcubetadieciocho{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        float:left;
+      
+    }
+
+    .txtcubetadieciocho{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Cubeta Doce*/
+    .imgcubetadoce{
+        padding:10px;
+        margin: 40px; 
+        background:#fff;
+        float:left;
+
+      
+    }
+
+    .txtcubetadoce{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Cubeta Ocho*/
+    .imgcubetaocho{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtcubetaocho{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Tina Uno*/
+    .imgtinauno{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txttinauno{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Escurridor de Cubiertos*/
+    .imgescurridor{
+        padding:10px;
+        margin:40px;
+        background: #fff;
+        float:left;
+    }
+
+    .txtescurridor{
+        margin:40px 20px 20px 20px;
+        padding:20px 300px 20px 65px;
+        background:#f1f1f1;
+        float:left;
+    }
+/*Boxbanners Maquila, Otros Productos e Industrial*/
+    .boxbannermaquila{
+       padding:10px;
+       margin:10px 10px 10px 100px;
+       float:left;
+    }
+
+    .boxbannerotrosproductos{
+        padding:10px;
+        margin:10px 10px 10px 110px;
+        float:left;
+    }
+
+    .boxbannerindustrial{
+        padding:10px;
+        margin:10px 10px 10px 120px;
+        float:left;
+    }
+
+    /*Subnivel Servicio Maquila*/
+/*Teaser Maquila*/
+    .imgteasermaquila{
+        padding: 0px;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+/*Servicios de Maquila*/
+    /*Inyección de Plástico*/
+    .imginyeccionplasticos{
+        padding:10px;
+        margin:10px 10px 10px 50px; 
+        background:#fff;
+        float:left;
+    }
+
+    .txtinyeccionplasticos{
+        margin:10px;
+        padding:20px 200px 20px 50px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Asesoria y Soluciones para Nuevos Productos*/
+  .imgasesoriaysoluciones{
+        padding: 10px;
+        margin:10px 10px 10px 50px; 
+        background:#fff;
+    }
+
+    .txtasesoriaysoluciones{
+        margin:10px;
+        padding:20px 50px 100px 50px; 
+        background:#f1f1f1;  
+    }
+
+/*Boxbanners Otros Productos, Industrial y Hogar*/
+    .boxbannerotrosproductos{
+       padding:10px;
+       margin: 10px 10px 10px 100px;
+       float:left;
+    }
+
+    .boxbannerindustrial{
+        padding:10px;
+        margin:10px 10px 10px 110px;
+        float:left;
+    }
+
+    .boxbannerhogar{
+        padding:10px;
+        margin:10px 10px 10px 120px;
+        float:left;
+    }
+
+    /*Subnivel Otros Productos*/
+/*Teaser Otros Productos*/
+    .imgotrosproductos{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+/*Otros Productos*/
+    /*Canasta Queso Chico*/
+    .imgcestaostricola{
+        padding: 10px;
+        margin:20px; 
+        background:#fff;
+        float:left; 
+    }
+
+    .txtcestaostricola{
+        margin:10px;
+        padding:20px 250px 20px 40px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Canasta Queso Chico*/
+    .imgcanastochico{
+        padding:10px;
+        margin:20px; 
+        background:#fff;
+        float:left;
+    }
+
+    .txtcanastochico{
+        margin:10px;
+        padding:20px 290px 20px 40px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Canasto Queso Grande*/
+  .imgcanastogde{
+        padding:10px;
+        margin:20px;
+        background:#fff;
+        float:left;
+    }
+
+    .txtcanastogde{
+        margin:10px;
+        padding:20px 290px 20px 40px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Cesta Fondo Ondulado*/
+     .imgcestaondulado{
+        padding:10px;
+        margin:20px; 
+        background:#fff;
+        float:left;
+    }
+
+    .txtcestaondulado{
+        margin:10px;
+        padding:20px 290px 20px 40px;
+        background:#f1f1f1;
+        float:left;
+    }
+    
+    /*Silla*/
+       .imgsilla{
+        padding:10px;
+        margin:20px; 
+        background:#fff;
+        float:left;
+    }
+
+        .txtsilla{
+        margin:10px;
+        padding:20px 290px 20px 40px;
+        background:#f1f1f1;
+        float:left;
+    }
+
+
+/*Boxbanners Otros Productos, Industrial y Hogar*/
+    .boxbannerindustrial{
+       padding:10px;
+       margin:10px 10px 10px 10px;
+       float:left;
+      
+    }
+
+    .boxbannerhogar{
+        padding:10px;
+        margin:10px 10px 10px 50px;
+        float:left;
+    }
+
+    .boxbannerotrosproductos{
+        padding:10px;
+        margin:10px 20px 10px 90px;
+        float:left;
+    }
+
+    /*Subnivel Catálogo,PENDIENTE ACTUALMENTE SE ENCUENTRA EN LA PARTE CONTACTO ESTA INFORMACIÓN*/
+.llameya{
+        margin:10px;
+        padding:20px;
+        color:#39657a;
+        text-align:center;
+    }
+/*Imagenes Responsive*/
+.img-fluid{
+    max-width:100%;
+    height:auto;
+    margin:50px 0px 0px 0px;
+    padding:0; 
 }
-/*Footer*/
-footer{
-  width: auto; 
-    height: 90px;
-    background-color: #00657f;
-    padding: 0;
-    margin: 0;
+
+/*Nivel Pedido*/
+ .containerpublicitario{
+        margin-top: 1em;
+        padding:20px;
+        background-color:#f1f1f1;
+    }
+
+.llameya{
+        margin:10px;
+        padding:20px;
+        color:#39657a;
+        text-align:center;
+    }
   
+/*Proceso para Levantar Pedidos*/
+.levantamiento{
+        margin-top: 1em;
+        padding:20px;
+        text-align: center;
 }
+
+/*Nivel Contacto*/
+
+.maps{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+/*Nivel Preguntas Frecuentes*/
+/*Teaser Preguntas*/
+    .imgteaserpreguntas{
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        width:100%;
+        height:auto; 
+    }
+
+    /*Entrega*/
+    .imgentrega{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        text-align: center;
+        float:left; 
+    }
+
+    .txtentrega{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Garantía*/
+    .imgarantia{
+        padding: 10px;
+        margin:40px; 
+        background:#fff;
+        float:left;
+    }
+
+    .txtgarantia{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+    /*Devoluciones*/
+    .imgdevoluciones{
+        padding:10px;
+        margin: 40px; 
+        background:#fff;
+        float:left;
+    }
+
+    .txtdevoluciones{
+        margin:40px 20px 20px 20px;
+        padding: 20px 300px 20px 65px; 
+        background:#f1f1f1;
+        float:left;
+    }
+
+     /*Contactanos*/
+    .imgcontactanos{
+        padding:0px;
+        margin: 20px 10px 15px 10px; 
+        text-align:center;
+        float:left; 
+    }
+
+    .txtcontactanos{
+        margin:5px 10px 10px 350px;
+        padding:0px;
+        text-align: center;
+        float:left;
+    }
+
+/*Footer*/
+    footer{
+        width: auto; 
+        height: 90px;
+        background-color: #00657f;
+        padding: 0;
+        margin: 0;
+    }
+
     .logofooter{
         width:auto;
         height:44px;
@@ -450,39 +1072,23 @@ footer{
         margin: 20px 0px 0px 0px;
     }
 
+    .clientesuno{
+        font:OpenSans-Bold;
+        font-size:30pt;
+        text-align:left;
+        color:#00657d;
+    }
 
-/*Contenido*/
-.clientesuno{
-    font:OpenSans-Bold;
-    font-size:30pt;
-    text-align:left;
-    color:#00657d;
-}
-.redesmovil{
-    display:none;
-}
-/*bbootstrap*/
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    .redesmovil{
+        display:none;
+    }
+
+/*Bootstrap*/
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
 }
 
-/*estilos hogar */
-
-
-
-
-
-/*Menu*/
-
-/*NOTAS EXTRASMedia Queries Responsive
-320px (Custom Iphone Retina)
-480px (Small Devices, Phones)
-768px (Small Devices, Tablets)
-992px (Medium Devices, Desktops)
-1200px (Large Devices, Wide Screens) */
-
-
-/*media queries*/
+/*Media queries*/
 
 @media (max-width: 995px) and (min-width: 763px) {
 .navbar-nav > li {
@@ -549,3 +1155,11 @@ footer{
 }
 
 }
+
+
+/*NOTAS EXTRAS Las viejas confiables
+320px (Custom Iphone Retina)
+480px (Small Devices, Phones)
+768px (Small Devices, Tablets)
+992px (Medium Devices, Desktops)
+1200px (Large Devices, Wide Screens) */
