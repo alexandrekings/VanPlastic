@@ -21,6 +21,11 @@ body{
 }
 
 /*Header Menú*/
+h1, .h1 {
+    font-size: 36px;
+    color: #006680;
+    text-transform: uppercase;
+}
 .menu{
   width:100%;
   height:75px;
@@ -29,7 +34,9 @@ body{
   margin:0;
   border-bottom: none;
 }
-
+.facemenu{
+    margin-top: 10px;
+}
  .logo{
    width: 34%;
    height: 75px;
@@ -213,11 +220,13 @@ body{
         }
 
 /*Efecto hover*/
-            .frame {
-                height: 250px;
-                width: 328px;
-                overflow: hidden;
-                }
+           .frame {
+    height: 250px;
+    width: 328px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
 
             .zoomin img {
                 height: 250px;
@@ -236,6 +245,12 @@ body{
 
 
 /*¡Hola!*/
+
+/*helper classes*/
+
+.grayback{
+    background-color: #ebebeb
+}
 /*Efectos*/
 0% {
     opacity: 1;
@@ -314,6 +329,10 @@ body{
 /*Nivel Home*/
     .main2{
         margin-top: 1em;
+    }
+
+    .main3{
+        margin-top: 5em;
     }
 
     .uno{
@@ -438,7 +457,7 @@ body{
         margin:10px 10px 10px 10px;
         padding:0px;
         text-align:center;
-        float:left;
+    
         }
 
     .txtmision{
@@ -448,7 +467,7 @@ body{
         padding:20px;
         background-color:#f1f1f1;
         text-align:center;
-        float:left;
+       
         }
 
           /*Vision*/
@@ -458,7 +477,7 @@ body{
         margin:10px 10px 10px 10px;
         padding:0px;
         text-align:center;
-        float:left;
+ 
         }
 
     .txtvision{
@@ -468,7 +487,7 @@ body{
         padding:20px;
         background-color:#f1f1f1;
         text-align:center;
-        float:left;
+    
         }
 
            /*Valores*/
@@ -478,7 +497,7 @@ body{
         margin:10px 10px 10px 10px;
         padding:0px;
         text-align:center;
-        float:left;
+    
         }
 
     .txtvalores{
@@ -488,7 +507,7 @@ body{
         padding:20px;
         background-color:#f1f1f1;
         text-align:center;
-        float:left;
+     
         }
 
 /*¿Por qué Vanplastic?*/
@@ -496,9 +515,9 @@ body{
         width:100%; 
         height:auto; 
         margin:10px;
-        padding:10px 10px 100px 10px;
+        padding:10px 10px 50px 10px;
         text-align:center;
-        float:left;
+      
      }
 
      .frasepie{
@@ -509,7 +528,7 @@ body{
         color:#00657d;
         background-color:#f1f1f1;
         text-align:center;
-        float:left;
+      
      }
     
    .imgporque{
@@ -517,7 +536,7 @@ body{
         height:auto; 
         margin:10px 10px 10px 10px;
         padding:10px 10px 80px 10px;
-        float:left;
+
    }
 
 /*Nivel Productos*/
@@ -534,109 +553,109 @@ body{
     /*Caja Bananera*/
     .imgbananera{
         padding: 10px;
-        margin:40px; 
+       
         background:#fff;
-        float:left;  
+   
     }
 
     .txtbananera{
         margin:40px 20px 20px 20px;
-        padding: 20px 300px 20px 65px; 
+        padding:2em; 
         background:#f1f1f1;
-        float:left;
+    
     }
 
     /*Caja María Calada*/
     .imgmaria{
         padding: 10px;
-        margin:40px; 
+      
         background:#fff;
-        float:left; 
+   
     }
 
     .txtmaria{
         margin:40px 20px 20px 20px;
-        padding: 20px 300px 20px 65px; 
+            padding:2em; 
         background:#f1f1f1;
-        float:left;
+ 
     }
 
     /*Caja María Fondo Plano*/
     .imgmariaplano{
         padding:10px;
-        margin: 40px; 
+      
         background:#fff;
-        float:left;  
+   
     }
 
     .txtmariaplano{
         margin:40px 20px 20px 20px;
-        padding: 20px 300px 20px 65px; 
+           padding:2em; 
         background:#f1f1f1;
-        float:left;
+
     }
 
     /*Caja Quetzal Ligera*/
     .imgquetzalligera{
         padding:10px;
-        margin:40px;
+       
         background: #fff;
-        float:left;
+    
     }
 
     .txtquetzalligera{
         margin:40px 20px 20px 20px;
-        padding:20px 300px 20px 65px;
+            padding:2em; 
         background:#f1f1f1;
-        float:left;
+     
     }
 
     /*Caja Quetzal*/
     .imgquetzal{
         padding:10px;
-        margin:40px;
+     
         background: #fff;
-        float:left;
+    
     }
 
     .txtquetzal{
         margin:40px 20px 20px 20px;
-        padding:20px 300px 20px 65px;
+              padding:2em; 
         background:#f1f1f1;
-        float:left;
+      
     }
 
     /*Cesta Lechera*/
     .imglechera{
         padding:10px;
-        margin:40px;
+   
         background: #fff;
-        float:left;
+    
     }
 
     .txtlechera{
         margin:40px 20px 20px 20px;
-        padding:20px 300px 20px 65px;
+             padding:2em; 
         background:#f1f1f1;
-        float:left;
+     
     }
 /*Boxbanners Hogar y Maquila*/
     .boxbannerhogar{
        padding:10px;
-       margin: 10px 10px 10px 100px;
-       float:left;
+     
+
        }
 
     .boxbannermaquila{
         padding:10px;
-        margin:10px 10px 10px 110px;
-        float:left;
+    
+ 
     }
 
     .boxbannerotrosproductos{
         padding:10px;
-        margin:10px 10px 10px 120px;
-        float:left;
+    
+     
     }
 
     /*Subnivel Línea Hogar*/
@@ -652,113 +671,112 @@ body{
     /*Cubeta Catorce*/
     .imgcubetacatorce{
         padding: 10px;
-        margin:40px; 
+   
         background:#fff;
-        float:left;
+
       
     }
 
     .txtcubetacatorce{
         margin:40px 20px 20px 20px;
-        padding:20px 300px 20px 65px; 
+              padding:2em; 
         background:#f1f1f1;
-        float:left;
+ 
     }
 
     /*Cubeta Dieciocho*/
     .imgcubetadieciocho{
         padding: 10px;
-        margin:40px; 
+ 
         background:#fff;
-        float:left;
+ 
       
     }
 
     .txtcubetadieciocho{
         margin:40px 20px 20px 20px;
-        padding: 20px 300px 20px 65px; 
+              padding:2em; 
         background:#f1f1f1;
-        float:left;
+
     }
 
     /*Cubeta Doce*/
     .imgcubetadoce{
         padding:10px;
-        margin: 40px; 
+       
         background:#fff;
-        float:left;
+      
 
       
     }
 
     .txtcubetadoce{
         margin:40px 20px 20px 20px;
-        padding: 20px 300px 20px 65px; 
+              padding:2em; 
         background:#f1f1f1;
-        float:left;
+    
     }
 
     /*Cubeta Ocho*/
     .imgcubetaocho{
         padding:10px;
-        margin:40px;
+      
         background: #fff;
-        float:left;
+  
     }
 
     .txtcubetaocho{
         margin:40px 20px 20px 20px;
-        padding:20px 300px 20px 65px;
+             padding:2em; 
         background:#f1f1f1;
-        float:left;
+ 
     }
 
     /*Tina Uno*/
     .imgtinauno{
         padding:10px;
-        margin:40px;
+     
         background: #fff;
-        float:left;
+    
     }
 
     .txttinauno{
         margin:40px 20px 20px 20px;
-        padding:20px 300px 20px 65px;
+              padding:2em; 
         background:#f1f1f1;
-        float:left;
+
     }
 
     /*Escurridor de Cubiertos*/
     .imgescurridor{
         padding:10px;
-        margin:40px;
+      
         background: #fff;
-        float:left;
+
     }
 
     .txtescurridor{
         margin:40px 20px 20px 20px;
-        padding:20px 300px 20px 65px;
+               padding:2em; 
         background:#f1f1f1;
-        float:left;
+
     }
 /*Boxbanners Maquila, Otros Productos e Industrial*/
     .boxbannermaquila{
        padding:10px;
-       margin:10px 10px 10px 100px;
-       float:left;
+
     }
 
     .boxbannerotrosproductos{
         padding:10px;
-        margin:10px 10px 10px 110px;
-        float:left;
+   
+
     }
 
     .boxbannerindustrial{
         padding:10px;
-        margin:10px 10px 10px 120px;
-        float:left;
+     
+ 
     }
 
     /*Subnivel Servicio Maquila*/
@@ -773,56 +791,62 @@ body{
 /*Servicios de Maquila*/
     /*Inyección de Plástico*/
     .imginyeccionplasticos{
-        padding:10px;
-        margin:10px 10px 10px 50px; 
-        background:#fff;
-        float:left;
+           padding: 0em;
+    margin: 0 auto;
+    background: #fff;
+    float: none;
     }
 
     .txtinyeccionplasticos{
-        margin:10px;
-        padding:20px 200px 20px 50px; 
+    
+              padding:2em; 
         background:#f1f1f1;
-        float:left;
+     
     }
-
+.txtinyeccionplasticos h2,    .txtasesoriaysoluciones h2{
+       margin-top: 0px;
+    margin-bottom: 10px; 
+}
     /*Asesoria y Soluciones para Nuevos Productos*/
   .imgasesoriaysoluciones{
-        padding: 10px;
-        margin:10px 10px 10px 50px; 
-        background:#fff;
+          padding: 0em;
+    margin: 0 auto;
+    background: #fff;
+    float: none;
     }
 
     .txtasesoriaysoluciones{
-        margin:10px;
-        padding:20px 50px 100px 50px; 
-        background:#f1f1f1;  
+    
+              padding:2em; 
+        background:#f1f1f1; 
+            min-height: 276px; 
     }
 
 /*Boxbanners Otros Productos, Industrial y Hogar*/
     .boxbannerotrosproductos{
        padding:10px;
-       margin: 10px 10px 10px 100px;
-       float:left;
+
     }
 
     .boxbannerindustrial{
         padding:10px;
-        margin:10px 10px 10px 110px;
-        float:left;
+
     }
 
     .boxbannerhogar{
         padding:10px;
-        margin:10px 10px 10px 120px;
-        float:left;
+    
+   
+    }
+    .padtop{
+        margin-top: 2em;
     }
 
     /*Subnivel Otros Productos*/
 /*Teaser Otros Productos*/
     .imgotrosproductos{
         padding: 0;
-        margin: 10px 0px 10px 0px;
+     
         width:100%;
         height:auto; 
     }
@@ -830,98 +854,96 @@ body{
 /*Otros Productos*/
     /*Canasta Queso Chico*/
     .imgcestaostricola{
-        padding: 10px;
-        margin:20px; 
+        padding: 0px;
+ 
         background:#fff;
-        float:left; 
+
     }
 
     .txtcestaostricola{
         margin:10px;
-        padding:20px 250px 20px 40px;
+               padding:2em; 
         background:#f1f1f1;
-        float:left;
+  
     }
 
     /*Canasta Queso Chico*/
     .imgcanastochico{
-        padding:10px;
-        margin:20px; 
+       padding: 0px;
+
         background:#fff;
-        float:left;
+ 
     }
 
     .txtcanastochico{
         margin:10px;
-        padding:20px 290px 20px 40px;
+               padding:2em; 
         background:#f1f1f1;
-        float:left;
+     
     }
 
     /*Canasto Queso Grande*/
   .imgcanastogde{
-        padding:10px;
-        margin:20px;
+       padding: 0px;
+  
         background:#fff;
-        float:left;
+   
     }
 
     .txtcanastogde{
         margin:10px;
-        padding:20px 290px 20px 40px; 
+              padding:2em; 
         background:#f1f1f1;
-        float:left;
+       
     }
 
     /*Cesta Fondo Ondulado*/
      .imgcestaondulado{
-        padding:10px;
-        margin:20px; 
+        padding: 0px;
+ 
         background:#fff;
-        float:left;
+     
     }
 
     .txtcestaondulado{
         margin:10px;
-        padding:20px 290px 20px 40px;
+               padding:2em; 
         background:#f1f1f1;
-        float:left;
+      
     }
     
     /*Silla*/
        .imgsilla{
-        padding:10px;
-        margin:20px; 
+        padding: 0px;
+    
         background:#fff;
-        float:left;
+   
     }
 
         .txtsilla{
         margin:10px;
-        padding:20px 290px 20px 40px;
+             padding:2em; 
         background:#f1f1f1;
-        float:left;
+     
     }
 
 
 /*Boxbanners Otros Productos, Industrial y Hogar*/
     .boxbannerindustrial{
        padding:10px;
-       margin:10px 10px 10px 10px;
-       float:left;
+   
       
     }
 
     .boxbannerhogar{
         padding:10px;
-        margin:10px 10px 10px 50px;
-        float:left;
+
     }
 
     .boxbannerotrosproductos{
         padding:10px;
-        margin:10px 20px 10px 90px;
-        float:left;
+     
+
     }
 
     /*Subnivel Catálogo,PENDIENTE ACTUALMENTE SE ENCUENTRA EN LA PARTE CONTACTO ESTA INFORMACIÓN*/
@@ -1083,33 +1105,93 @@ body{
         display:none;
     }
 
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: #0067a0;
+}
+    .navbar-default .navbar-toggle:hover .icon-bar {
+      background-color: #93d600;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover{
+    border-color: #fff;
+    background: transparent;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 26px;
+    height: 4px;
+    border-radius: 1px;
+}
+.btn-primary{
+    padding: 1em 2em;
+    text-transform: uppercase;
+}
+.marbo{
+    margin-bottom: 2em;
+}
+.formpad{
+    padding-left:0px;
+    padding-right: 0px;
+}
+.ubic{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.formbaja{
+    margin-bottom: 2em;
+}
 /*Bootstrap*/
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent;
 }
 
 /*Media queries*/
+@media (max-width: 1200px){
+.mainav{
+        width: 100%;
+}
+}
 
-@media (max-width: 995px) and (min-width: 763px) {
+@media (max-width: 1000px){
 .navbar-nav > li {
-        padding-right: 1em;
+    color: #006680;
+    padding-right: 0em;
+}
+
+
+}
+
+@media (max-width: 995px)  {
+.imgasesoriaysoluciones, .imginyeccionplasticos {
+  
+    margin-bottom: 1em;
 }
 
 }
 
 @media (max-width: 763px){
+    .navbar-toggle {
+       position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 17px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+    .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
     .face img {
    
     margin-top: -1em;
 }
-    .redesmovil{
-        display: inline-block;
    
-    width: 100px;
-    text-align: center;
-    margin-top: 1em;
-        margin-left: 7em;
-    }
     .navbar-nav {
     margin: 7.5px -15px;
     background-color: #ebebeb;
@@ -1133,7 +1215,46 @@ body{
     
     margin-left: 2em;
 }
+.main3{
+    margin-top: 7em;
+}
+.logoblanco {
+   
+    float: none;
+}
 
+.logofooter {
+    float: none;
+    text-align: center;
+    height: 80px;
+}
+footer {
+  
+    height: auto;
+  
+}
+.contacto {
+   
+    text-align: center;
+  
+    margin: 20px 0px 10px 0px;
+}
+.main {
+    margin-top: 9em;
+}
+
+.carousel-caption {
+    right: 15%;
+    left: 59%;
+    padding-bottom: 1.5em;
+        display: none;
+}
+.carousel-caption a, .carousel-caption a:hover {
+  
+    text-shadow: none;
+    padding: 10px;
+    font-size: 1.5rem;
+}
 }
 
 @media (max-width: 516px){
@@ -1142,8 +1263,8 @@ body{
     margin-left: 2em;
 }
 .menu {
-    width: 100%;
-    height: 123px;
+  width: 100%;
+    height: 100px;
     background-color: #fff;
     padding: 20px 20px 20px 20px;
     margin: 0;
@@ -1151,7 +1272,7 @@ body{
 }
 .container > .navbar-header {
   
-    text-align: center;
+    text-align: left;
 }
 
 }

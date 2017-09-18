@@ -48,7 +48,7 @@
                         <li><a href="catalogo.html">Catálogo</a></li>
 
                         </ul></li>
-                        <li><a href="pedidos.html">Pedido</a></li>
+                        <li class="active"><a href="pedidos.html">Pedido</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                         <li class="facemenu"><a class="face" href="https://www.facebook.com/VanPlastic-244243679410618/"><img src="img/facebook.png" alt="facebook" ></a></li>
                         <li class="facemenu"><a href="preguntas.html" class="faqs"><i class="glyphicon glyphicon-question-sign"></i></a></li>
@@ -59,7 +59,7 @@
             <!-- FIN MENU -->
             </header>
       <!--contenido de tu página-->
-  <main class="main">
+  <main class="main grayback">
         
     <div class="container main2">
        <section class="row">
@@ -84,8 +84,8 @@
                       <label for="exampleFormControlInput1">Correo Electrónico</label>
                       <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="nombre@correo.com">
                     </div>
-                    <div class="form-group">
-                         <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 formpad">
+                    <div class="form-group">                         
                             <label for="exampleFormControlSelect1">Producto</label>
                             <select class="form-control" id="exampleFormControlSelect1">
                               <option>Caja María Calada</option>
@@ -94,16 +94,18 @@
                               <option>Producto</option>
                               <option>Producto</option>
                             </select>
-                        </section>   
+                         
                           </div>
+                           </section> 
                     <div class="form-group">
-                       <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4"> 
+                       <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 formpad"> 
                         <label class="form-control-label" for="formGroupNombreInput">Cantidad</label>
                         <input type="text" class="form-control" id="formGroupNombreInput" placeholder="Cantidad">
                        </section>
                     </div>
+                       <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 formpad"> 
                     <div class="form-group">
-                        <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4"> 
+                     
                         <label for="exampleFormControlSelect1">Color</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                           <option>Pantone</option>
@@ -112,78 +114,83 @@
                           <option>Pantone</option>
                           <option>Pantone</option>
                         </select>
-                        </section>
+                       
                       </div>
-                      <div class="form-check form-check-inline">
-                            <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                       </section>
+                           <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 formpad">
+                      <div class="form-group form-check-inline">
+                        
                             <label class="form-check-label">
                               <input class="form-check-input" type="radio" name="inlineReproceso" id="inlineRadio1" value="option1"> Reproceso
                             </label>
+                              </div>
                             </section>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        
+                           <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 formpad">
+                          <div class="form-group form-check-inline">
+                           
                             <label class="form-check-label">
                               <input class="form-check-input" type="radio" name="inlineVirgen" id="inlineRadio2" value="option2"> Virgen
                             </label>
-                            </section>
+                           
                          </div>
+                          </section>
+                          <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formbaja">
+                            <button type="submit" class="btn btn-primary center-block">ENVIAR</button>  
+                          </section>
                 </form>
                 </section>
             </div>   
 
             
-<div class="containerpublicitario">
+<!--div class="containerpublicitario">
     <section class="row">
-        <section class="col-xs-12 col-sm-12 col-md-11 col-lg-11">  
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Espacio Publicitario</label>
-    <select class="form-control" id="exampleFormEspacioSelect1">
-      <option>Auto relieve</option>
-      <option>Espacio</option>
-      <option>Espacio</option>
-    </select>
-  </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Modo de Envió</label>
-        <select class="form-control" id="exampleFormEspacioSelect1">
-          <option>En Planta (El cliente envía su propio transporte y recoge el producto).</option>
-          <option>En Sitio (Enviámos transporte con nuestro producto *Costo Adicional)</option>
-        </select>
-      </div>
-      <div class="form-group">
+        <section class="col-xs-12 col-sm-12 col-md-11 col-lg-11"> 
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Espacio Publicitario</label>
+              <select class="form-control" id="exampleFormEspacioSelect1">
+                <option>Auto relieve</option>
+                <option>Espacio</option>
+                <option>Espacio</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Modo de Envió</label>
+              <select class="form-control" id="exampleFormEspacioSelect1">
+                <option>En Planta (El cliente envía su propio transporte y recoge el producto).</option>
+                <option>En Sitio (Enviámos transporte con nuestro producto *Costo Adicional)</option>
+              </select>
+            </div>
+            <div class="form-group">
             <label for="inputAddress" class="col-form-label">Dirección  <small>*Dependiendo del kilometraje, enviar dirección para cotización de envió.</small></label>
             <input type="text" class="form-control" id="inputAddress" placeholder="Dirección">
-      </div>
-      <div class="form-row">
+            </div>
+            <div class="form-row">
             <div class="form-group col-md-6">
               <label for="inputCity" class="col-form-label">Ciudad</label>
               <input type="text" class="form-control" id="inputCity">
-      </div>
-      <div class="form-group col-md-4">
+            </div>
+            <div class="form-group col-md-4">
               <label for="inputState" class="col-form-label">Estado</label>
               <select id="inputState" class="form-control">Choose</select>
-      </div>
-      <div class="form-group col-md-2">
+            </div>
+            <div class="form-group col-md-2">
               <label for="inputZip" class="col-form-label">Código Postal</label>
               <input type="text" class="form-control" id="inputZip">
-      </div>
-          
-      <div class="form-group">
+            </div>
+
+            <div class="form-group">
               <label for="exampleFormControlFile1">Cargar Logotipo <small> *Formato png ó jpg con las siguientes medidas establecidas 00px X 00px.</small></label>
-              <input type="file" class="form-control-file" id="exampleFormControlFile1">       
-      </div>
-        </section>    
-    </section>  
-    <button type="submit" class="btn btn-primary">ENVIAR</button>         
-</div>
-</form>
-        <section class="clearfix"></section> 
-            </section>
-        </section>
-    </section>    
-      </div> 
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+       
+          <button type="submit" class="btn btn-primary">ENVIAR</button>  
+        </form> 
+      </section>
+    </section>
+</div-->
+
      <!--Esta sección en vez de que sea infografía, podría ser mejor aprovechada como banner con 4 slides que expliquen los pasos a seguir
           <div class="container levantamiento">
             <section class="row">
